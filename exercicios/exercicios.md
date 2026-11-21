@@ -1,6 +1,6 @@
 1. (ENDERTON, p. 6) Quais das sentenças abaixo tornam-se verdadeiras quando inserimos "$\displaystyle \in$" nas lacunas? Quais se tornam verdadeiras, se inserimos "$\displaystyle \subseteq$"?
 
-**a.)** $\displaystyle \left\{ \empty \right\} \_\_\_\_ \left\{ \empty, \left\{ \empty \right\}\right\}$
+**a.)** $\displaystyle \{ \empty \} \_\_\_\_ \{ \empty, \{ \empty \}\}$
 
 <details>
 <summary><strong>Resposta</strong></summary>
