@@ -1,6 +1,6 @@
 1. (ENDERTON, p. 6) Quais das sentenças abaixo tornam-se verdadeiras quando inserimos "$\displaystyle \in$" nas lacunas? Quais se tornam verdadeiras, se inserimos "$\displaystyle \subseteq$"?
 
-**a.)** $\displaystyle \{ \empty \} \_\_\_\_ \{ \empty, \{ \empty \}\}$
+**a.)** $\displaystyle \{ \emptyset \} \_\_\_\_ \{ \emptyset, \{ \emptyset \}\}$
 
 <details>
 <summary><strong>Resposta</strong></summary>
@@ -26,21 +26,28 @@ Observa-se que $\forall \; x \in A \rightarrow x \in B$. Logo, por definição, 
 
 c. $\left\{ \left\{ \empty \right\} \right\} \_\_\_\_ \left\{  \empty,  \left\{ \empty  \right\}   \right\}$
 
-:{Resposta
-O conjunto da esquerda possui somente um elemento: $\left\{ \left\{ \emptyset \right\} \right\}$. Verifica-se que este também é elemento do conjunto da direita. Logo, como cada elemento de A está em B, observa-se a relação de inclusão $(\subseteqq)$
-}:
+<details>
+<summary><strong>Resposta</strong></summary>
+
+O conjunto da esquerda possui somente um elemento: $\left\{ \emptyset \right\}$. Verifica-se que este também é elemento do conjunto da direita. Logo, como cada elemento de A está em B, observa-se a relação de inclusão $(\subseteqq)$
+</details>
 <br />
 
 d. $\left\{ \left\{ \empty \right\} \right\} \_\_\_\_ \left\{  \empty,  \left\{\left\{ \empty  \right\}\right\}   \right\}$
 
-:{Resposta
+<details>
+<summary><strong>Resposta</strong></summary>
+
 Como o conjunto da esquerda é elemento do conjunto da direita, observa-se a relação de pertinência $(\in)$.
-}:
+</details>
+
 <br />
 
 e. $\left\{\left\{ \empty \right\}\right\} \_\_\_\_ \left\{ \empty, \left\{  \empty , \left\{ \empty \right\} \right\} \right\}$ 
 
-:{Resposta
+<details>
+<summary><strong>Resposta</strong></summary>
+
 **Nenhuma das duas relações é observada**. Chamemos $A$ ao conjunto da esquerda e $B$ ao conjunto da direita:
 
 - $A = \{\{\emptyset\}\}$
@@ -53,13 +60,17 @@ Observe que o único elemento de $A$ não pertence a $B$, $\{\emptyset\} \not\in
   - $\{\emptyset, \{ \emptyset \}\}$
 
   Como ambos são diferentes de $A = \{\{\emptyset\}\}$, então $A \not\in B$.
-}:
+</details>
 
 <br />
+<hr />
+<br />
 
- 1. (ENDERTON, p. 7) Demonstre que nenhum desses três conjuntos: $\empty, \left\{ \empty \right\}, \left\{ \left\{ \empty \right\} \right\}$ é igual ao outro.
- 
-:{:{Resposta
+2. (ENDERTON, p. 7) Demonstre que nenhum desses três conjuntos: $\empty, \left\{ \empty \right\}, \left\{ \left\{ \empty \right\} \right\}$ é igual ao outro.
+
+<details>
+<summary><strong>Resposta</strong></summary>
+
 A relação de igualdade entre conjuntos é definida da seguinte forma: Dados dois conjuntos $A, B$, $A=B$ se, e somente se, $\forall \, x \in A \rightarrow x \in B$ e se $\forall \, x \in B \rightarrow x \in A$. Ou seja, dois conjuntos serão iguais se: $A \subseteq B$ e $B \subseteq A$.
 Para respondermos ao problema, chamemos os conjuntos de:
 
@@ -70,17 +81,20 @@ Para respondermos ao problema, chamemos os conjuntos de:
 Observe que $A \subseteq B$, pois o conjunto vazio é subconjunto de qualquer outro, por vacuidade, mas $B \not\subseteq A$, pois $A$ não possui elementos. Da mesma forma $A \subseteq C$, mas $C \not\subseteq A$. Portanto $A \neq B$ e $A \neq C$.
 
 Resta somente compararmos $B$ e $C$. Notemos que $B \not\subseteq C$. Compare os elementos de cada conjunto e verique que $\emptyset \neq \{ \emptyset \}$. Portando descarta-se a igualdade entre ambos: $B \neq C$. $\blacksquare$
-
+</details>
 
 <br />
+<hr />
+<br />
 
-3. (ENDERTON, p. 7) Demosntre que:
+3. (ENDERTON, p. 7) Demonstre que:
 
 $$
 B \subseteq C \rightarrow \mathcal{P}(B) \subseteq \mathcal{P}(C)
 $$
 
-**Resposta:**
+<details>
+<summary><strong>Resposta</strong></summary>
 
 Se $B \subseteq C$, então, por definição $\forall \; x \in B \rightarrow x \in C$. Ou seja, cada elemento de $B$ é também elemento de $C$.
 
@@ -93,11 +107,16 @@ Como vimos, cada elemento de $B$ é elemento de $C$, então, pela definição do
 $$
 \forall \; X \in \mathcal{P}(B) \rightarrow X \in  \mathcal{P}(C) \implies \mathcal{P}(B) \subseteq  \mathcal{P}(C)
 $$
+</details>
 
-
+<br />
+<hr />
 <br />
 
 4. (ENDERTON, p. 7) Considerando $x$ e $y$ elementos de $B$. Prove que $\left\{ \left\{ x \right\}, \left\{ x,y \right\} \right\} \in \mathcal{P}\mathcal{P}(B).$
+
+<details>
+<summary>Resposta</summary>
 
 Se $x,y \in B$, então:
 
@@ -116,4 +135,4 @@ Sendo assim, pela definição do conjunto das partes:
 $$
 \{ \{x\}, \{x,y\} \} \subset \mathcal{P(B)}
 $$
-
+</details>
