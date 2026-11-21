@@ -10,7 +10,7 @@ Vamos à viagem.
 
 ## Cronograma de Atividades
 
-- [Semana 01](:/c552b6434478484981778099ac025658)
-- [Semana 02](:/0b4b9904962d47c58088a5cd9edd8ff2)
-- [Semana 03](:/a06f472e47b347e784c951124fd7fd04)
-- [Semana 04](:/771482f5c97f484291afbe65cdbb5e3f)
+- [Parte 01](./parte01/parte01.md)
+- [Parte 02](:/0b4b9904962d47c58088a5cd9edd8ff2)
+- [Parte 03](:/a06f472e47b347e784c951124fd7fd04)
+- [Parte 04](:/771482f5c97f484291afbe65cdbb5e3f)
